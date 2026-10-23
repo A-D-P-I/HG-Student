@@ -11,7 +11,7 @@
 </head>
 <body class="portal">
 <header class="portal-header">
-<button class="app-launcher" id="menu"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></button>
+<button class="app-launcher" ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></button>
 <div class="header-logo"><strong></strong>
 <img class="HG-logo" src="HG.png" alt="Education ministry logo">
 <img class="ministry-logo" src="ministry-logo-transparent.png" alt="Education ministry logo">
@@ -258,11 +258,11 @@ href="style3.css"></head><body>
 
 
                 <h3>
-                     :(
+                     النوادي المدرسية
                 </h3>
 
                 <p>
-                    ...
+                    شارك في النوادي المدرسية، واكتشف مواهبك، واصنع التغيير!✨
                 </p>
 
                 <span class="competition-link">
@@ -534,7 +534,7 @@ href="style3.css"></head><body>
 
         </div>
     <div class="tech-content">
-      <h1>Beta Inf</h1>
+      <h1>مسابقاتي في المعلوميات</h1>
     </div>
     <div class="cards">
     <!-- البطاقة الأولى -->
@@ -731,7 +731,7 @@ href="style3.css"></head><body>
 
 <script>
 const side=document.getElementById("sidebar");
-document.getElementById("menu").onclick=()=>side.classList.toggle("expanded");
+
 const name=localStorage.getItem("studentName")||"Student", account=localStorage.getItem("studentAccount")||"student@taalim.HG";
 document.getElementById("fullName").textContent=name;document.getElementById("fullAccount").textContent=account;
 function openView(id){document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id===id));document.querySelectorAll("[data-view]").forEach(n=>n.classList.toggle("active",n.dataset.view===id));}

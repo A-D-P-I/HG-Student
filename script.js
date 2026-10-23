@@ -28,7 +28,7 @@ document.getElementById("next").onclick = () => {
     const username = document.getElementById("email").value.trim();
 
     if (username === "") {
-        alert("Please enter your Student ID.");
+        alert("أدخل اسمك الكامل 📝");
         return;
     }
 
